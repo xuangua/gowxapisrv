@@ -11,10 +11,10 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/gin-gonic/gin/binding"
 	// "github.com/kataras/iris"
-	"github.com/shen100/golang123/config"
-	"github.com/shen100/golang123/controller/common"
-	"github.com/shen100/golang123/model"
-	"github.com/shen100/golang123/utils"
+	"github.com/xuangua/gowxapisrv/config"
+	"github.com/xuangua/gowxapisrv/controller/common"
+	"github.com/xuangua/gowxapisrv/model"
+	"github.com/xuangua/gowxapisrv/utils"
 )
 
 // WeAppLogin 微信小程序登录

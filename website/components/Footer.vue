@@ -1,7 +1,7 @@
 <template>
     <div class="golang-footer">
         <div class="golang-footer-page-link">
-            <a href="https://github.com/shen100/golang123" target="_blank"><div class="golang-footer-github"><Icon type="social-github" style="margin-right:1px;"></Icon></div><span style="margin-left: 2px;">Github</span></a>
+            <a href="https://github.com/xuangua/gowxapisrv" target="_blank"><div class="golang-footer-github"><Icon type="social-github" style="margin-right:1px;"></Icon></div><span style="margin-left: 2px;">Github</span></a>
             <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
             <a href="/rank">积分榜</a>
             <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
@@ -21,7 +21,7 @@
         </div>
         <div class="golang-footer-copyright">
             <span>2017&nbsp;<a href="/">{{siteConfig.name}}</a>&nbsp;©版权所有</span>
-            <span>&nbsp;<a href="https://github.com/shen100/golang123">powerd by golang123</a>&nbsp;</span>
+            <span>&nbsp;<a href="https://github.com/xuangua/gowxapisrv">powerd by golang123</a>&nbsp;</span>
         </div>
     </div>
 </template>

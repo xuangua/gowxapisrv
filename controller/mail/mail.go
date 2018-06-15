@@ -6,7 +6,7 @@ import (
     "log"
     "net"
 	"net/smtp"
-	"github.com/shen100/golang123/config"
+	"github.com/xuangua/gowxapisrv/config"
 )
 
 // SendMail 发送邮件

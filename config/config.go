@@ -9,7 +9,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/shen100/golang123/utils"
+	"github.com/xuangua/gowxapisrv/utils"
 )
 
 var jsonData map[string]interface{}

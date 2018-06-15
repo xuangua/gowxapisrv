@@ -6,7 +6,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/shen100/golang123/model"
+	"github.com/xuangua/gowxapisrv/model"
 )
 
 // SiteInfo 返回网站信息

@@ -1,6 +1,6 @@
 # Gopkg.toml example
 #
-# Refer to https://github.com/golang/dep/blob/master/docs/Gopkg.toml.md
+# Refer to https://golang.github.io/dep/docs/Gopkg.toml.html
 # for detailed Gopkg.toml documentation.
 #
 # required = ["github.com/user/thing/cmd/thing"]
@@ -16,32 +16,49 @@
 #   source = "github.com/myfork/project2"
 #
 # [[override]]
-#  name = "github.com/x/y"
-#  version = "2.4.0"
+#   name = "github.com/x/y"
+#   version = "2.4.0"
+#
+# [prune]
+#   non-go = false
+#   go-tests = true
+#   unused-packages = true
 
 
 [[constraint]]
   name = "github.com/PuerkitoBio/goquery"
-  version = "1.1.0"
+  version = "1.4.1"
 
 [[constraint]]
-  name = "github.com/asaskevich/govalidator"
-  version = "8.0.0"
+  name = "github.com/cactus/go-statsd-client"
+  version = "3.1.1"
+
+[[constraint]]
+  name = "github.com/dgrijalva/jwt-go"
+  version = "3.2.0"
 
 [[constraint]]
   name = "github.com/garyburd/redigo"
-  version = "1.4.0"
+  version = "1.6.0"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/gin-contrib/sessions"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/globalsign/mgo"
+
+[[constraint]]
+  name = "github.com/jinzhu/gorm"
+  version = "1.9.1"
 
 [[constraint]]
   branch = "master"
   name = "github.com/microcosm-cc/bluemonday"
 
 [[constraint]]
-  branch = "master"
-  name = "github.com/russross/blackfriday"
-
-[[constraint]]
-  name = "github.com/satori/go.uuid"
+  name = "github.com/robfig/cron"
   version = "1.1.0"
 
 [[constraint]]
@@ -50,8 +67,12 @@
 
 [[constraint]]
   branch = "master"
-  name = "github.com/gin-contrib/sessions"
+  name = "github.com/russross/blackfriday"
 
 [[constraint]]
-  name = "github.com/dgrijalva/jwt-go"
-  version = "3.1.0"
+  name = "github.com/satori/go.uuid"
+  version = "1.2.0"
+
+[prune]
+  go-tests = true
+  unused-packages = true

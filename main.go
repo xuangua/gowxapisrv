@@ -10,11 +10,11 @@ import (
 	"github.com/gin-contrib/sessions/cookie"
 	"github.com/gin-gonic/gin"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
-	"github.com/shen100/golang123/config"
-	"github.com/shen100/golang123/cron"
-	"github.com/shen100/golang123/middleware"
-	"github.com/shen100/golang123/model"
-	"github.com/shen100/golang123/router"
+	"github.com/xuangua/gowxapisrv/config"
+	"github.com/xuangua/gowxapisrv/cron"
+	"github.com/xuangua/gowxapisrv/middleware"
+	"github.com/xuangua/gowxapisrv/model"
+	"github.com/xuangua/gowxapisrv/router"
 )
 
 func main() {

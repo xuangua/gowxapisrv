@@ -122,7 +122,7 @@
                             month: 7,
                             date: 21
                         },
-                        content: '代码地址: <a href="https://github.com/shen100/golang123" target="_blank">https://github.com/shen100/golang123</a>'
+                        content: '代码地址: <a href="https://github.com/xuangua/gowxapisrv" target="_blank">https://github.com/xuangua/gowxapisrv</a>'
                     }
                 ]
             }

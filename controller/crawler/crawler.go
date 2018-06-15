@@ -11,10 +11,10 @@ import (
 
 	"github.com/PuerkitoBio/goquery"
 	"github.com/gin-gonic/gin"
-	"github.com/shen100/golang123/config"
-	"github.com/shen100/golang123/controller/common"
-	"github.com/shen100/golang123/model"
-	"github.com/shen100/golang123/utils"
+	"github.com/xuangua/gowxapisrv/config"
+	"github.com/xuangua/gowxapisrv/controller/common"
+	"github.com/xuangua/gowxapisrv/model"
+	"github.com/xuangua/gowxapisrv/utils"
 )
 
 type crawlSelector struct {

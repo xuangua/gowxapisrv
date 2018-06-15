@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/cactus/go-statsd-client/statsd"
-	"github.com/shen100/golang123/config"
+	"github.com/xuangua/gowxapisrv/config"
 )
 
 // StatsdClient statsd 客户端

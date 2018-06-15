@@ -23,8 +23,8 @@
             </div>
 			<div class="golang-top-header-right">
 				<ul>
-                    <li><a href="https://github.com/shen100/golang123" target="_blank">golang123源码</a></li>
-                    <li><a href="https://github.com/shen100/golang123/issues" target="_blank">问题反馈</a></li>
+                    <li><a href="https://github.com/xuangua/gowxapisrv" target="_blank">golang123源码</a></li>
+                    <li><a href="https://github.com/xuangua/gowxapisrv/issues" target="_blank">问题反馈</a></li>
                     <template v-if="user">
                         <li class="user-message-wrapbox">
                             <Tooltip v-if="userMessages.length" trigger="hover" title="提示标题" placement="bottom">

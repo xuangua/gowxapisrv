@@ -31,7 +31,7 @@ golang123的技术架构是前后端分离的, 前端使用**vue**、**iview**�
 | redis  |  4.0.1 (及以上) |
 
 ### 克隆代码
-将`golang123`的代码克隆到gopath的src/github.com/shen100目录下，即`your/gopath/src/github.com/shen100/golang123`
+将`golang123`的代码克隆到gopath的src/github.com/shen100目录下，即`your/gopath/src/github.com/xuangua/gowxapisrv`
 
 ### 前端依赖的模块
 进入`golang123/website`目录，输入命令
@@ -143,5 +143,5 @@ QQ群: 32550512
 
 
 ## License
-[GPL](https://github.com/shen100/golang123-api/blob/master/LICENSE "")      
+[GPL](https://github.com/xuangua/gowxapisrv-api/blob/master/LICENSE "")      
 Copyright (c) 2013-present, shen100
